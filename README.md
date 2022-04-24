@@ -1,4 +1,4 @@
-# 10-Bit DAC using 28nm Technology
+# 10-Bit Potentiometric DAC using 28nm Technology
 
 # Table of Contents
 - [1. Introduction](#introduction)
