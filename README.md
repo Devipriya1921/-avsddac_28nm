@@ -191,7 +191,11 @@ Simulation : PrimeSim
 
 # Further Work
 
-Further work would be to analyse the obtained waveforms and compare it with the spec sheet provided.
+* Facing issues with the layouting concepts of n-well, p-well, etc assembling and working.
+* Not able to figure out how to use the custom compiler for layouting. 
+* Need to understand the difference between SDL and Layout editor.
+* Need to understand the basics behind layouting, analysing the circuit for layouting.
+* Would need guidance on the above mentioned points.
 
 
 # Contributors
