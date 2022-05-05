@@ -270,7 +270,7 @@ NOTE :
 # Acknowledgements
 
 * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
-* Muthukrishnan Chinnasamy and Montu Makadia, CEO of Semiconductor Fabless Accelerator Lab(SFAL)
+* Muthukrishnan Chinnasamy and Montu Makadia, Semiconductor Fabless Accelerator Lab (SFAL)
 
 
 # References
