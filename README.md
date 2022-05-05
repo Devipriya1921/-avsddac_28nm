@@ -17,9 +17,11 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
   * [8 bit DAC](#8-bit-dac)
   * [9 bit DAC](#9-bit-dac)
   * [10 bit DAC](#10-bit-dac)
-- [3. Further Work](#further-work)
-- [4. Contributors](#contributors)
-- [5. Acknowledgements](#acknowledgements)
+- [3. Results](#results)
+- [4. Future Works](#future-works)
+- [5. Contributors](#contributors)
+- [6. Acknowledgements](#acknowledgements)
+- [7. References](#references)
 
 
 # Introduction
@@ -224,22 +226,56 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 ![10bit wf](https://user-images.githubusercontent.com/83152452/164959225-a438d2e8-6645-43e2-8e47-bce8b88b72db.png)
 
 
+# Results
 
-# Further Work
+### Switch Components and it's value :
 
-* Facing issues with the layouting concepts of n-well, p-well, etc assembling and working.
-* Not able to figure out how to use the custom compiler for layouting. 
-* Need to understand the difference between SDL and Layout editor.
-* Need to understand the basics behind layouting, analysing the circuit for layouting.
-* Would need guidance on the above mentioned points.
+|Name	   |Value |
+|:---------|:-------------------|
+|D_in	     |v1 = 0V, v2 = 1.05V, u = 0.1us 	|
+|Capacitor	|1pf	    |
+|VDDA      |1.8V	    |
+|VSSA     	|0V	|
+|VREFH	    |1.2V	|
+|VREFL	    |0.8V	|
+
+### 2 Bit DAC :
+
+|Name	   |Value |
+|:---------|:-------------------|
+|D0, D1    |v1 = 0V, v2 = 1.05V, u = 0.1us 	|
+|Resistor  |200ohms   |
+|Capacitor	|5pf	    |
+|VDDA      |1.8V	    |
+|VSSA     	|0V	|
+|VREFH	    |1.8V	|
+|VREFL	    |0V	|
+
+NOTE : 
+* For 3 Bit DAC : D0, D1 and D2; For 4 Bit DAC : D0, D1, D2 and D3 and so on.
+* For 10 Bit DAC : D0, D1, D2...., D10.
+* Other Inputs value remains the same as 2 Bit DAC until 10 Bit DAC.
+
+       
+# Future Works
+
+* Need to understand and start with the Layout process.
 
 
 # Contributors
 
 * A Devipriya , B.E (Electronics and Communication Engineering), Bangalore - adevipriya1900@gmail.com
-* Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
+
 
 # Acknowledgements
 
- * Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
- * Muthukrishnan Chinnasamy and Montu Makadia, CEO of Semiconductor Fabless Accelerator Lab(SFAL)
+* Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd. - kunalghosh@gmail.com
+* Muthukrishnan Chinnasamy and Montu Makadia, CEO of Semiconductor Fabless Accelerator Lab(SFAL)
+
+
+# References
+
+* Sameer S Durgoji : [Link](https://github.com/vsdip/avsddac_3v3_sky130_v2)
+* Shalini Kanna : [Link](https://github.com/vsdip/avsddac_3v3_sky130_v1)
+* S Skandha Deepsita : [Link](https://github.com/vsdip/avsddac_3v3_sky130_v1)
+
