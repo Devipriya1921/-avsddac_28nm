@@ -255,6 +255,9 @@ NOTE :
 * For 3 Bit DAC : D0, D1 and D2; For 4 Bit DAC : D0, D1, D2 and D3 and so on.
 * For 10 Bit DAC : D0, D1, D2...., D10.
 * Other Inputs value remains the same as 2 Bit DAC until 10 Bit DAC.
+* For 2 Bit DAC, Number of steps in the output graph = 2^N, i.e, 2^2 = 4 steps.... and so on. 
+* For a 10 Bit DAC, Number of steps in the output graph = 2^N, i.e, 2^10 = 1024 steps.
+* The graph value for DAC ranges from VrefH (1.8V) to VrefL (0V).
 
        
 # Future Works
