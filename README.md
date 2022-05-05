@@ -1,8 +1,12 @@
-# 10-Bit Potentiometric DAC using 28nm Technology
+# 10 Bit Potentiometric DAC using 28nm Technology (Synopsys Custom Compiler)
+
+This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Converter) using Synopsys Custom Compiler Tool with a typical Digital Power Supply (VDD) of 1.05V and a typical Analog Voltage Supply (VDDA) of 1.8V using SAED_PDK 28_32nm Technology node.
+
 
 # Table of Contents
 - [1. Introduction](#introduction)
 - [2. Pre Layout Simulations](#pre-layout-simulations)
+  * [Tools used](#tools-used)
   * [Switch](#switch)
   * [2 bit DAC](#2-bit-dac)
   * [3 bit DAC](#3-bit-dac)
@@ -20,7 +24,35 @@
 
 # Introduction
 
+* A Digital to Analog Converter (DAC) converts a digital input signal into an analog output signal. The digital signal is represented with a binary code, which is a combination of bits 0 and 1. A Digital to Analog Converter (DAC) consists of a number of binary inputs and a single output. In general, the number of binary inputs of a DAC will be a power of two.
+
+* There are two types of DACs :
+
+  1. Weighted Resistor DAC
+  2. R-2R Ladder DAC
+
+### Weighted Resistor DAC
+
+* A weighted resistor DAC produces an analog output, which is almost equal to the digital (binary) input by using binary weighted resistors in the inverting adder circuit. In short, a binary weighted resistor DAC is called as weighted resistor DAC.
+* The circuit diagram of a 3-bit binary weighted resistor DAC is shown in the following figure :
+
+![weighted resistor](https://user-images.githubusercontent.com/83152452/166871259-dc9be251-84f7-4ac6-a7bb-7aed601f6f59.png)
+
+### R-2R Ladder DAC
+
+* The R-2R Ladder DAC overcomes the disadvantages of a binary weighted resistor DAC. As the name suggests, R-2R Ladder DAC produces an analog output, which is almost equal to the digital (binary) input by using a R-2R ladder network in the inverting adder circuit.
+* The circuit diagramof a 3-bit R-2R Ladder DAC is shown in the following figure :
+
+![r2r ladder](https://user-images.githubusercontent.com/83152452/166871272-ec5a78ad-90d0-40e3-b2f7-2d93ae7eedcf.png)
+
+* For more information you may wish to visit : [Link](https://www.tutorialspoint.com/linear_integrated_circuits_applications/linear_integrated_circuits_applications_digital_to_analog_converters.htm)
+ 
 ### Architecture 
+
+* The basic idea is to divide the voltage into N different voltage values in the range of VREFH and VREFL- for an N-Bit DAC. 
+* The design used here to achieve this is the simple resistor string DAC which consists of resistors in series. 
+* These resistors are then connected to various switches in such a fashion that it routes the exact voltage to the output. 
+* The problem of the largeness of the circuit is reduced by building hierarchical subcircuits of 10-Bit potentiometric DAC – Switch, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, 7-bit, 8-bit, 9-bit and 10-bit.
 
 ![basic architecture of potentiometric DAC](https://user-images.githubusercontent.com/83152452/164958658-74c7f37c-4cb0-4f9d-bb1d-ddbb5f2dc570.png)
 
@@ -28,16 +60,21 @@
 
 ![specifications to be met](https://user-images.githubusercontent.com/83152452/164958719-436bb2f8-8a75-48d5-95a1-db4efa5e6290.png)
 
-
 # Pre Layout Simulations
 
-The tools used for these simulations are:
+## Tools used
 
-Schematic Design : Custom Compiler
-Symbol Creation : Custom Compiler
-Simulation : PrimeSim
+* The tools used for the circuit simulations are:
+
+ 1. Schematic Design : Custom Compiler
+ 2. Symbol Creation : Custom Compiler
+ 3. Simulation : PrimeSim
 
 ## Switch
+
+* Switching circuits or gates are circuits that perform well-defined logic or arithmetic operations on binary variables. 
+* Binary variables are two-valued variables expressed as 1's or 0's in algebraic form, or true or false in syllogistic forms, or as high or low voltage, positive or negative remanence (magnetic flux), etc., in circuit forms. 
+* Circuit switching refers to the mechanism of communications in which a dedicated path with allocated bandwidth is set up on an on-demand basis before the actual communication can take place. 
 
 ### Switch Schematic 
 ![switch sch](https://user-images.githubusercontent.com/83152452/164958812-197936ea-7c4a-4749-bf65-2b8ce7baf172.png)
@@ -46,7 +83,6 @@ Simulation : PrimeSim
 ![switch symbol](https://user-images.githubusercontent.com/83152452/164958815-817b6c2b-e1f2-4f3d-b489-0f2076c2226c.png)
 
 ### Switch testbench
-
 ![switch tb](https://user-images.githubusercontent.com/83152452/164958818-a53c137a-00de-4faa-9164-fc763ec85376.png)
 
 ### Switch Waveform 
