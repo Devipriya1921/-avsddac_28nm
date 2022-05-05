@@ -4,8 +4,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 
 # Table of Contents
-- [1. Introduction](#introduction)
-- [2. Pre Layout Simulations](#pre-layout-simulations)
+- [ Introduction](#introduction)
+- [ Pre Layout Simulations](#pre-layout-simulations)
   * [Tools used](#tools-used)
   * [Switch](#switch)
   * [2 bit DAC](#2-bit-dac)
@@ -17,11 +17,11 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
   * [8 bit DAC](#8-bit-dac)
   * [9 bit DAC](#9-bit-dac)
   * [10 bit DAC](#10-bit-dac)
-- [3. Results](#results)
-- [4. Future Works](#future-works)
-- [5. Contributors](#contributors)
-- [6. Acknowledgements](#acknowledgements)
-- [7. References](#references)
+- [ Results](#results)
+- [ Future Works](#future-works)
+- [ Contributors](#contributors)
+- [ Acknowledgements](#acknowledgements)
+- [ References](#references)
 
 
 # Introduction
