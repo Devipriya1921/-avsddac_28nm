@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Apr 23 06:25:52 2022-->
+<file-format name="stateData" version="1.0">
+ <attribute name="description" value="" type="giString"/>
+ <attribute name="design" value="dp_DAC/dp_4bit_DAC_tb/schematic" type="dmCellView"/>
+ <attribute name="enabled" value="1" type="giBoolean"/>
+ <attribute name="enabledJobClass" value="0" type="giBoolean"/>
+ <attribute name="migratedSimulator" value="PrimeSim" type="giString"/>
+ <attribute name="name" value="Testbench1" type="giString"/>
+ <attribute name="openaccessState" value="//" type="dmCellView"/>
+ <attribute name="simulator" value="HSPICE" type="giString"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>
