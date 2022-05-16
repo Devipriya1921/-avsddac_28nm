@@ -19,7 +19,7 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
   * [10 bit DAC](#10-bit-dac)
 - [ Results](#results)
 - [ Layout ](#layout)
-  * [switch](#switch)
+  * [Switch Layout](#switch-layout)
   * [2bit DAC](#2bit-dac)
   * [3bit DAC](#3bit-dac)
   * [4bit DAC](#4bit-dac)
@@ -273,7 +273,7 @@ NOTE :
 
 # Layout
 
-## switch 
+## Switch Layout 
 
 ![switch-1](https://user-images.githubusercontent.com/83152452/168643134-180c6961-541a-4f3e-b2bd-4068b3c19b6d.png)
 
