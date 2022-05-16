@@ -342,6 +342,8 @@ NOTE :
 
 ![10bit-2](https://user-images.githubusercontent.com/83152452/168643628-03a35b81-07c2-4f72-b31b-1823502a8bcc.png)
 
+https://user-images.githubusercontent.com/83152452/168647815-d4a6f6d5-0ec7-4857-98aa-cc208f65b3e4.mp4
+
 
 # Future Works
 
