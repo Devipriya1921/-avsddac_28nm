@@ -273,70 +273,70 @@ NOTE :
 
 # Layout
 
-## Switch 
+## switch 
 
 ![switch-1](https://user-images.githubusercontent.com/83152452/168643134-180c6961-541a-4f3e-b2bd-4068b3c19b6d.png)
 
 ![switch-2](https://user-images.githubusercontent.com/83152452/168643151-7813c3f6-1419-4af7-a794-67e7d4c0aa18.png)
 
 
-## 2 Bit DAC
+## 2Bit DAC
 
 ![2bit-1](https://user-images.githubusercontent.com/83152452/168643177-36b09e21-8d3f-463a-8f46-8e6c52c0be9c.png)
 
 ![2bit-2](https://user-images.githubusercontent.com/83152452/168643200-62ce5d23-f7c9-4e51-bd43-bf86751c4dba.png)
 
 
-## 3 Bit DAC
+## 3Bit DAC
 
 ![3bit-1](https://user-images.githubusercontent.com/83152452/168643219-641c010b-4aad-47d1-8c2b-0d6660baad2e.png)
 
 ![3bit-2](https://user-images.githubusercontent.com/83152452/168643236-32478791-59c8-495c-9554-fdd15ea92487.png)
 
 
-## 4 Bit DAC
+## 4Bit DAC
 
 ![4bit-1](https://user-images.githubusercontent.com/83152452/168643275-a8e08442-3178-40cf-b2c2-0c8cf09295ef.png)
 
 ![4bit-2](https://user-images.githubusercontent.com/83152452/168643286-6cf75913-1c61-4855-bcda-c4f5347612a3.png)
 
 
-## 5 Bit DAC
+## 5Bit DAC
 
 ![5bit-1](https://user-images.githubusercontent.com/83152452/168643343-a74a1ccc-bd9e-4123-bf41-3e1628dd71da.png)
 
 ![5bit-2](https://user-images.githubusercontent.com/83152452/168643361-7c67c1b4-1bd3-4a0b-b41d-a54480ae64b4.png)
 
 
-## 6 Bit DAC
+## 6Bit DAC
 
 ![6bit-1](https://user-images.githubusercontent.com/83152452/168643414-51c90ba4-d42f-409f-a2aa-5b1bdecda3d5.png)
 
 ![6bit-2](https://user-images.githubusercontent.com/83152452/168643409-1a6b4222-8257-45f0-b895-c48caaa21cbd.png)
 
 
-## 7 Bit DAC
+## 7Bit DAC
 
 ![7bit-1](https://user-images.githubusercontent.com/83152452/168643494-de06bff9-bb0e-43d1-866e-b1505a0bebe1.png)
 
 ![7bit-2](https://user-images.githubusercontent.com/83152452/168643510-4e66bcda-bbb0-466a-821c-865d266e087e.png)
 
 
-## 8 Bit DAC
+## 8Bit DAC
 
 ![8bit-1](https://user-images.githubusercontent.com/83152452/168643525-8dd122dd-ee14-4272-b19d-796564bf8caa.png)
 
 ![8bit-2](https://user-images.githubusercontent.com/83152452/168643555-8c4dadc2-1042-4908-b95e-05472af2b315.png)
 
 
-## 9 Bit DAC
+## 9Bit DAC
 
 ![9bit-1](https://user-images.githubusercontent.com/83152452/168643584-168f91a1-2b4d-4a83-b80c-630c7490d1b1.png)
 
 ![9bit-2](https://user-images.githubusercontent.com/83152452/168643602-a5eb1fac-02c0-46d9-847d-ce4947dadf7d.png)
 
 
-## 10 Bit DAC
+## 10Bit DAC
 
 ![10bit-1](https://user-images.githubusercontent.com/83152452/168643617-8648f6c6-6bd8-434d-8ed5-6861b2dead26.png)
 
