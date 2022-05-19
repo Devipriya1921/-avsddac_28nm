@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Sat Apr 23 18:24:14 2022-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="models" type="saModelSetup">
+  <attribute name="includeGlobal" type="giBoolean" value="1"/>
+  <attribute name="includePath" type="giString" value="/home/skandha/Tools_SNPS/Downloads_temp/SAED32nm_PDK_09302020/hspice"/>
+  <collection name="modelFiles">
+   <object version="1" name="modelFiles" type="saModelFile">
+    <attribute name="enabled" type="giBoolean" value="1"/>
+    <attribute name="filename" type="giString" value="saed32nm.lib"/>
+    <attribute name="section" type="giString" value="TT"/>
+   </object>
+  </collection>
+  <collection name="modelGroupDefs"/>
+  <collection name="modelGroups"/>
+ </object>
+</file-format>
