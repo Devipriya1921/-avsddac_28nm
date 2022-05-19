@@ -104,6 +104,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 ## 2 Bit DAC
 
+2 Bit DAC is implemented using 2 switch instances and resistors.
+
 ### Schematic
 ![2bit sch](https://user-images.githubusercontent.com/83152452/164958876-dc60109a-c2f0-4633-a179-ae2de6ba1d0e.png)
 
@@ -118,6 +120,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 
 ## 3 Bit DAC
+
+3Bit DAC is implemented using 2 2-Bit DACs and 1 switch instance.
 
 ### Schematic
 ![3bit sch](https://user-images.githubusercontent.com/83152452/164958918-58aba452-14dd-42b1-8496-9bf2f6ce1ba3.png)
@@ -134,6 +138,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 ## 4 Bit DAC
 
+4Bit DAC is implemented using 2 3-Bit DACs and 1 switch instance.
+
 ### Schematic
 ![4bit sch](https://user-images.githubusercontent.com/83152452/164958955-0b1a45aa-515e-4f92-b263-79550978ff78.png)
 
@@ -148,6 +154,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 
 ## 5 Bit DAC
+
+5Bit DAC is implemented using 2 4-Bit DACs and 1 switch instance.
 
 ### Schematic
 ![5bit sch](https://user-images.githubusercontent.com/83152452/164959022-9356dff2-821c-45b5-9230-e3ab9fac0376.png)
@@ -164,6 +172,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 ## 6 Bit DAC
 
+6Bit DAC is implemented using 2 5-Bit DACs and 1 switch instance.
+
 ### Schematic
 ![6bit sch](https://user-images.githubusercontent.com/83152452/164959064-d4580bc2-9411-496a-b843-2254be84e1e2.png)
 
@@ -178,6 +188,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 
 ## 7 Bit DAC
+
+7Bit DAC is implemented using 2 6-Bit DACs and 1 switch instance.
 
 ### Schematic
 ![7bit sch](https://user-images.githubusercontent.com/83152452/164959098-4f9f5365-8fa1-4153-bc72-7b6d907cca6f.png)
@@ -194,6 +206,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 ## 8 Bit DAC
 
+8Bit DAC is implemented using 2 7-Bit DACs and 1 switch instance.
+
 ### Schematic
 ![8bit sch](https://user-images.githubusercontent.com/83152452/164959131-8ef98175-ad1e-4b0c-9716-c590ca373d66.png)
 
@@ -209,6 +223,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 ## 9 Bit DAC
 
+9Bit DAC is implemented using 2 8-Bit DACs and 1 switch instance.
+
 ### Schematic
 ![9bit sch](https://user-images.githubusercontent.com/83152452/164959170-2efcfacf-684a-4344-b7f1-1f1bd5e11702.png)
 
@@ -223,6 +239,8 @@ This project aims to deal with a 10 Bit Potentiometric DAC (Digital to Analog Co
 
 
 ## 10 Bit DAC
+
+10Bit DAC is implemented using 2 9-Bit DACs and 1 switch instance.
 
 ### Schematic
 ![10bit sch](https://user-images.githubusercontent.com/83152452/164959220-26758a3c-3972-4a3c-bfcd-afccaa4ea74f.png)
